@@ -13,7 +13,7 @@ public class prac2p2 {
         System.out.println("Please enter your fahrenheit to be converted to celsius");
         f = myObj.nextDouble();
 
-        c = (f-32) * (5/9);
+        c = (f-32.0) * (5.0/9.0);
     
 
         System.out.println( "You have entered " + f + " fahrenheit.");

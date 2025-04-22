@@ -8,14 +8,10 @@ public class prac2p1 {
     public static void main(String[] args){
 
         //2.1
-        double y;
-        
-        while(true){
-        Scanner myObj = new Scanner(System.in);
-        System.out.println("Enter number to be squared :");
-        double x = myObj.nextDouble();
+        double y,x;
+         x = 11;
          y = x*x;
-        System.out.println("Your new number is " + y);
+        System.out.println("The square of number 11 is " + y);
 
 
 
@@ -26,4 +22,4 @@ public class prac2p1 {
 
     }
     
-}
+

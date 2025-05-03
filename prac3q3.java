@@ -12,11 +12,11 @@ public class prac3q3 {
 
         for(int i=1;i<100; i++){
 
-            for (int j = 5; j < 5; j--) {
-                System.out.println(i);
-            }
+            System.out.print(i + " ");
 
-            System.out.println(i);
+           if(i%5==0){
+            System.out.println();
+           }
         }
     }
     

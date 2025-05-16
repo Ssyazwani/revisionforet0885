@@ -23,18 +23,35 @@ public class prac5q2p2 {
     public static double avgArry(double[ ] a){
 
         double sum = 0;
-        for(int i = 0; i < a.length; i++){
-            sum+= a[i];
-        }
+        // for loop
+        // for(int i = 0; i < a.length; i++){
+        //     sum+= a[i];
+        // }
 
-        System.out.println(sum);
 
+        
         // for (double number:a){
         //     sum += number;
 
         // }
 
-        // System.out.println(sum);
+
+        //while loop
+        // int i =0;
+        // while ( i < a.length){
+        //     sum+= a[i];
+        //     i++;
+
+        // }
+            
+
+        //do while loop
+        int i = 0;
+        do {
+             sum+= a[i];
+             i++;
+                                }
+          while (i < a.length);
         
         double avg = sum/a.length;
 

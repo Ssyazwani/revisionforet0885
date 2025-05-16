@@ -9,7 +9,7 @@
 
 
 
-public class prac5q2p2 {
+public class prac5q2p1 {
 
     public static void main(String[] args) {
 

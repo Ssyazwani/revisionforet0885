@@ -49,7 +49,7 @@ public class prac3q2 {
                 System.out.println("You got a D");
                 break;
 
-            } else if ( y <= 49){
+            } else if ( 0 <= y && y <= 49){
 
                 System.out.println("The marks you have entered is valid");
                 System.out.println("You got a F");
@@ -62,7 +62,7 @@ public class prac3q2 {
 
             } else {
 
-                System.out.println("Please enter quiz mark for John");
+                System.out.println("Try again");
             }
 
 

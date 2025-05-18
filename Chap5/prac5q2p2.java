@@ -1,3 +1,4 @@
+package Chap5;
 // Q5.3 Continued from Q5.2, in the main method, 
 // a)	Prompt user to enter the array size, with InputMismatchException handled, till the array size is a valid No.
 // b)	Declare and create a double array with size decided by user in a)

@@ -1,3 +1,4 @@
+package Chap5;
 // Q5.1	Write a program that reads data from a char array:  (Please use different loops for the following 3 tasks)
 // char [] msg ={'s', 't', 'r', 'e', 's', 's', 'e', 'd'};
 // a)	Display the data in normal order. 

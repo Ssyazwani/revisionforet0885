@@ -1,3 +1,6 @@
+package Chap2;
+
+
 //lesson 2
 //Q2.2 Write a program that converts Fahrenheit to Celsius. 
 

@@ -1,3 +1,4 @@
+package Chap5;
 //Q5.2
 //Write a method that finds the average in an array of floating-point values with signature: (Please use for loop, then do while, then while loop to design it)
 // public static double avgArry(double[ ] a)

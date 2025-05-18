@@ -1,3 +1,4 @@
+package Chap3;
 // prac3 example
 
 import java.util.Scanner;

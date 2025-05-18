@@ -1,3 +1,4 @@
+package Chap3;
 
 // Q3.3 (a) Display all the odd numbers between 1 to 9---use if-else and for loop
 //          (b) modify your code to display all the odd number between 1--99 in 10 rows, with 5 numbers on each row. ---use nested for loop

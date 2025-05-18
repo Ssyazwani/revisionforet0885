@@ -1,3 +1,5 @@
+package Chap5.morexercises;
+
 //Recalling that I did this exercise before, a small revision
 
 import java.util.Scanner;

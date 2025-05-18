@@ -1,3 +1,5 @@
+package Chap1;
+
 //Lesson 1
 //1.1 Continue to add codes to display “W” in large block letter which is made up of lower case "w", 
 //1.2 Design a Java application to display "Welcome! I'm Duke." In a message box.

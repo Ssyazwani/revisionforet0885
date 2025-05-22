@@ -45,9 +45,9 @@ public static void main(String[] args) {
     System.out.println("Fahrenheit value for second method : " + fahrenheit2);
 
     if (fahrenheit == fahrenheit2) {
-            System.out.println("Both results are the same.");
+            System.out.println("Both results are the same");
         } else {
-            System.out.println("There is a difference in results!");
+            System.out.println("There is a difference in results");
         }
 
 

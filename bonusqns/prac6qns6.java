@@ -19,7 +19,7 @@ public class prac6qns6 {
 
          System.out.print("Sorted array : ");
          for(int i =0; i < array.length;i ++){
-            Arrays.sort(array);
+            Arrays.sort(array); // using Arrays sort method here
             System.out.print(array[i]+ ",");
          }
 

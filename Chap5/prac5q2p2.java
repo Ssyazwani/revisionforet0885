@@ -12,62 +12,54 @@ import java.util.Scanner;
 public class prac5q2p2 {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int arraysize = 0;
 
        
-
-            Scanner sc = new Scanner(System.in);
-            System.out.println("Please enter your arraysize");
-            int arraysize = sc.nextInt();
-            double[] userinput = new double[arraysize];
-            System.out.println("Please enter the contents of your array");
-
-       
-
-        //   try {
-            for (int i = 0; i < arraysize; i++) 
-            if (sc.hasNextDouble()) {
-                userinput[i] = sc.nextDouble();
-            }
+        System.out.println("Please enter your arraysize:");
             
-        // } catch (Exception e) {
-        //     System.out.println("Please enter the correct data type");
+        while (true) {
+                try {
+                   arraysize = sc.nextInt();
+                    break; 
+                } catch (InputMismatchException e) {
+                    System.out.println("Invalid input. Please enter a number.");
+                    sc.next(); 
+            }
+        }
+    
+        double[] userinput = new double[arraysize];
+        System.out.println("Please enter the contents of your array:");
 
-        // }
+        for (int i = 0; i < arraysize; i++) {
+            while (true) {
+                try {
+                    userinput[i] = sc.nextDouble();
+                  break;
+                } catch (InputMismatchException e) {
+                    System.out.println("Invalid input. Please enter a number.");
+                    sc.next(); 
+            }
+        }
 
-        System.out.println(" Your array consists of ");
-
-        for(int i =0; i < userinput.length;i++){
-            System.out.println(userinput[i]);
+        System.out.println("Your array consists of:");
+        for (int j = 0; j < userinput.length; j++) {
+            System.out.println(userinput[j]);
         }
 
         System.out.println("The average for your array is " + avgArry(userinput));
-            
-          
-
-        
-            
-        // throw new InputMismatchException("Please enter the size of the array");
-
-           
-         
-           
     }
 
-    public static double avgArry(double[ ] a){
-
-        double sum = 0;
-        // for loop
-        for(int i = 0; i < a.length; i++){
-            sum+= a[i];
-        }
-
-        double avg = sum/a.length;
-
-        return avg;
-    }
-
-    
-    
 }
+
+    public static double avgArry(double[] a) {
+        double sum = 0;
+        for (int i = 0; i < a.length; i++) {
+            sum += a[i];
+        }
+        return sum / a.length;
+    }
+}
+
 
 

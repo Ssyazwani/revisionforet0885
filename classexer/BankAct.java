@@ -6,7 +6,7 @@ public class BankAct {
 	
 	public static String accNo;
 	public static String Name;
-private static double balance;
+    private static double balance;
 	
 	public BankAct(String ac, String n,double b) {
 		this.accNo = ac;

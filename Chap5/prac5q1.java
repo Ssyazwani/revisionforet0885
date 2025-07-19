@@ -10,15 +10,15 @@ import java.util.Scanner;
 public class prac5q1{
     public static void main(String[] args) {
 
-        char [] msg ={'s', 't', 'r', 'e', 's', 's', 'e', 'd'};
+        char [] msg ={'s', 't', 'r', 'e', 's', 's', 'e', 'd'}; 
 
-        for (char letter : msg){
-            System.out.print(letter);
+        for (int i = 0; i< msg.length; i++){  //stressed
+            System.out.print(msg[i]);
         }
 
         System.out.println("\n");
 
-        for (int i = msg.length - 1; i >= 0; i--) {
+        for (int i = msg.length - 1; i >= 0; i--) { //desserts
             System.out.print(msg[i]);
            
         }

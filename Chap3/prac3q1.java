@@ -47,7 +47,6 @@ public class prac3q1 {
             {
                 strOut = "Wrong guess!";
                 System.out.println(strOut);
-                
 
             }
             

@@ -12,11 +12,12 @@ public class prac2p2 {
 
         double c,f;
 
-        Scanner myObj = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); //intialise te scanner
         System.out.println("Please enter your fahrenheit to be converted to celsius");
-        f = myObj.nextDouble();
+        f = input.nextDouble(); //data input
+        
 
-        c = (f-32.0) * (5.0/9.0);
+        c = (f-32.0) * (5.0/9);
     
 
         System.out.println( "You have entered " + f + " fahrenheit.");

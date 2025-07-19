@@ -5,7 +5,7 @@ package Chap5;
 
 
 // In the main method, 
-// a)  Use array {1.5, 20.3, 4.5, 5.5, 10.3, 450, 20.4, -22.3} to test the method
+// a)  Use array {1.5, 20.3, 4.5, 5.5, 10.3, 45.0, 20.4, -22.3} to test the method
 // b)  Use another array {99, 50, 70.5} to test the method again.
 
 
@@ -14,7 +14,7 @@ public class prac5q2p1 {
 
     public static void main(String[] args) {
 
-        double[] test = {1.5, 20.3, 4.5, 5.5, 10.3, 450, 20.4, -22.3};
+        double[] test = {1.5, 20.3, 4.5, 5.5, 10.3, 45.0, 20.4, -22.3};
         double [] test2 = {99, 50, 70.5};
         System.out.println("The average is " + avgArry(test));
         System.out.println("The average is " + avgArry(test2));

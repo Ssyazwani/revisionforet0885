@@ -24,6 +24,7 @@ public class mainFan {
     }
 
     public int getTiming (int time){
+        time = 10;
         return time;
         
     }

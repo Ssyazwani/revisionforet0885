@@ -1,5 +1,6 @@
 package labtest.labtestVehicle;
 
+//labtest need 3 Java source files: superclass file, subclass file and test file with meaning file names. Include your class, adm No. and name as comments at the beginning of all your Java programs.
 
 //Create a new project with 3 Java source files: superclass file, subclass file and test file with meaning file names. Include your class, adm No. and name as comments at the beginning of all your Java programs. Zip the 3 .java files in LT2p*.zip for submission, where * is your adm No.
 

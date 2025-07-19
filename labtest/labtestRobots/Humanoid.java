@@ -1,5 +1,7 @@
 package labtest.labtestRobots;
 
+//labtest need 3 Java source files: superclass file, subclass file and test file with meaning file names. Include your class, adm No. and name as comments at the beginning of all your Java programs.
+
 // Task 2: Design a subclass of Robot l in Task 1 with the following requirements:
 
 public class Humanoid extends Robot{

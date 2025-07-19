@@ -30,7 +30,11 @@ public class Humanoid extends Robot{
         return this.rLegsBroken;
     }
 
-   
+    //override super class method selfIntro ( ) to return all properties’ value with additional info:
+    //if rLegsBroken is true, “ can’t walk” 
+    //else “can walk slowly”
+    //if ageInMonth is larger than 120, “too old, better retire now”
+    //else “can still work”
 
     @Override
     public String selfIntro(){
@@ -44,7 +48,8 @@ public class Humanoid extends Robot{
             walkingStatus = "can't walk";
 
         } else{
-            walkingStatus = "Can walk slowly";
+
+            walkingStatus = "can walk slowly";
 
         }
 
@@ -57,7 +62,7 @@ public class Humanoid extends Robot{
         }
 
 
-        return "The robot is " + getAgeInMonth() + " old." + " The walking status is " + walkingStatus + " Also it is " + ageStatus;
+        return "The robot is " + getAgeInMonth() + " old." + " The walking status is " + walkingStatus + " Also it " + ageStatus;
     }
 
 
